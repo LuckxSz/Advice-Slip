@@ -1,0 +1,43 @@
+.container {
+  margin: 0 auto;
+  margin-top: 8rem;
+  padding: 3rem;
+  border-radius: 56% 44% 70% 30% / 18% 52% 48% 82%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  background-color: #323a49;
+  color: white;
+  width: 20rem;
+  height: 20rem;
+  font-size: 13px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.letters {
+  color: rgb(0, 255, 191);
+  align-self: self-start;
+  font-size: 25px;
+  gap: 30px;
+}
+.wrapper {
+  align-self: self-start;
+  font-size: 25px;
+}
+.wrapper:hover {
+  letter-spacing: 0.2px;
+  transition: 0.5s;
+}
+.dice {
+  height: 40px;
+  width: 40px;
+  transition: transform 0.9s;
+  text-shadow: 2px 2px red;
+}
+
+.dice:hover {
+  transform: rotate(-360deg);
+  filter: blur(1px);
+}

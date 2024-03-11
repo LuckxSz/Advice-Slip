@@ -1,0 +1,6 @@
+.letters {
+  color: rgb(0, 255, 191);
+  align-self: self-start;
+  font-size: 25px;
+  gap: 30px;
+}
